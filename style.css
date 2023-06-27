@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+}
+
+.left-panel{
+  width: 20%;
+  height: 100vh;
+  background-color: #f2f2f2;
+  float: left;
+  cursor: pointer;
+}
+
+
+.right-panel{
+  width: 80%;
+  height: 100vh;
+  float: right;
+  padding: 20px;
+}
+
+.active {
+  font-weight: bold;
+}

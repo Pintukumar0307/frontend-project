@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Frontend-Project</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+ <div class="main">  
+  <div class="left-panel">
+    <ul>
+      <li class="component" id="home-link" onclick="showContent('home')">Home</li>
+      <li class="component" id="contact-link" onclick="showContent('contact')">Contact</li>
+      <li class="component" id="information-link" onclick="showContent('information')">Information</li>
+      <li class="component" id="guide-link" onclick="showContent('guide')">Guide</li>
+    </ul>
+  </div>
+  
+  <div class="right-panel">
+    <div id="home" class="content">
+      <h2>Welcome to the Home Page</h2>
+      <p>This is the content of the home page.</p>
+    </div>
+    
+    <div id="contact" class="content" style="display: none;">
+      <h2>Contact Information</h2>
+      <p>This is the content of the contact page.</p>
+    </div>
+    
+    <div id="information" class="content" style="display: none;">
+      <h2>Information</h2>
+      <p>This is the content of the information page.</p>
+    </div>
+    
+    <div id="guide" class="content" style="display: none;">
+      <h2>Guide</h2>
+      <p>This is the content of the guide page.</p>
+    </div>
+  </div>
+</div> 
+</body>
+<script src="index.js"></script>
+</html>
